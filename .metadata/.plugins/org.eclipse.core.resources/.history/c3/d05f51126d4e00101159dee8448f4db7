@@ -1,0 +1,16 @@
+package comA;
+
+public class Demo3 {
+	public static void main(String[] args) {
+		
+		
+		String name1="Thanesh";
+		String name2="Thanesh";
+		String name3= new String("Thanesh");
+		System.out.println(name1==name2);
+		System.out.println(name1==name3);
+		
+	
+	}
+	
+}

@@ -1,0 +1,29 @@
+package comA;
+
+public class Demo4 {
+	public static void main(String[] args) {
+		
+		byte a=127;
+//				size  1 byte : 8 bit 
+					// 2 pow 8 : 256 
+					//  - half and + half 
+					// 256 / 2 = 128
+					// - 128 to + 127 
+		System.out.println(a);
+	
+		short s = 32767;
+		System.out.println(s); //
+		
+		//what will be output abouve code ? 
+		// correct
+		// error 
+	}
+}
+	// id , name , age , salary , desig 
+	// age : 
+//	what dt will be suatable ? 
+	// byte  
+	// short 
+	// long 
+	// int 
+	
