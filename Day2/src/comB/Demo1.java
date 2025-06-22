@@ -13,11 +13,9 @@ class Car
 }
 public class Demo1 {
 	public static void main(String[] args) {
-
 //	Car benz = new Car();			 //through the obj only we have to cal
 //	System.out.println(benz.speed);
-//	benz.gare();
-		
+//	benz.gare();	
 //		without creating obj : (STATIC)
 
 //		Class.variablename
@@ -28,6 +26,5 @@ public class Demo1 {
 		Car c = new Car();				// instance varaible 
 		System.out.println(c.model);
 		c.display();
-		
 	}
 }
