@@ -1,7 +1,11 @@
 package comB;
 class Car
 {
-	static int speed=250;
+	int model=2024;				// with obj 
+	void display() {
+		System.out.println("instance method...!");
+	}
+	static int speed=250;		// without obj 
 	static void gare()
 	{
 		System.out.println("5 gares...!");
@@ -20,6 +24,10 @@ public class Demo1 {
 //		Classname.methodName
 		System.out.println(Car.speed);
 		Car.gare();
+	
+		Car c = new Car();				// instance varaible 
+		System.out.println(c.model);
+		c.display();
 		
 	}
 }
