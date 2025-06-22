@@ -1,0 +1,33 @@
+Day 2: 
+
+Constructors, this super keyword in Java
+Instance initialized block, local variables vs instance variables
+Creating Classes and objects
+Introduction to OOP in Java
+
+Loops & Object-Oriented Programming in Java
+Scenario Based Problem Solving on Loops
+Problem Solving on Nested loops
+Advance problems on Loops
+
+
+Oops : 
+	class & Object
+	Inheritance 
+	Polymorphism 
+	Abstraction 
+	Encapsulation  
+
+
+constructor 				method 
+
+as soon we create a obj 
+	it automatically call 		we have to call manually 
+
+
+class name & const must be same 	IT CAN  be ANY NAME 
+
+will not have return type 		will have a retune type 
+
+const will exacta only once / obj 	we can call multiple time per single obj 
+
