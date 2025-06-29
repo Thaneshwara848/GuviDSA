@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class Demo1 {
 	public static void main(String[] args) {
 		int arr[]= {11 ,22 , 33, 44, 55 };
-//	Search :  	Linear, Binary, Ternary
+				//	Search :  	Linear, Binary, Ternary
 		Scanner sc = new Scanner(System.in);
-		System.out.println("ENter the Element to Search .....!");
+		System.out.println("ENter the Element to Search .....! will see this ");
 		int key = sc.nextInt();
 		boolean found = false ;
 
@@ -22,7 +22,8 @@ public class Demo1 {
 		else {
 			System.out.println("Element Not Found...!");
 		}
-		System.out.println("=====SORT  :BubbleInsertion /Selection /Quick /Merge ====");
+		
+		System.out.println("=====SORT  :Bubble/Insertion /Selection /Quick /Merge ====: will see this ");
 		
 		int ar[]= {33,22,11,44,55,88,66};
 		Arrays.sort(ar);
