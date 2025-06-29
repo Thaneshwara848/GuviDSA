@@ -36,9 +36,32 @@ System.out.println("============= Count even / odd ====");
 		}
 		System.out.println("Even count :"+even);
 		System.out.println("Odd Count :" + odd );
-//		Revesrse the Array
-//		Copy one array into Another 
-//		Caculate the avarage of Array Elememts
+System.out.println("===== REVERSE==================");
+	for(int i=arr.length-1;i>=0;i--) {
+		System.out.println(arr[i]);
+	}
+	
+	System.out.println("===== Avarage ==================");
+	int total=0;
+	for(int x :arr) {
+		total+=x;
+	}
+	double avg = total / arr.length;
+
+	System.out.println("Avrage  = "+avg);
+	System.out.println("=============== Copy on to Onother========");
+	int org[] = {4,5,6};
+	int copy[]= new int[org.length];
+	
+	for(int i=0 ; i <org.length ;i++) {
+		copy[i]=org[i];
+	}
+	System.out.println("=========Copied Array======");
+	for(int num : copy) {
+		System.out.println(num);
+	}
+
+
 		// search an element in Array 
 		// sort the Array (Ascending order )
 	}
