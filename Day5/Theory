@@ -1,0 +1,9 @@
+
+Bubble sort		: compares the adjacent element  7,6,9,4,2,1
+Insertion sort		: Start with the second element (index 1), and compare it with the previous elements 7,6,9,4,2,1
+Quick sort		: More fast : Why bcz ? it will divide into 2 array (<  | > )  : huge data 
+Selection sort		: It selects the smallest (or largest) element from the unsorted part 
+				places it at the beginning. This process is repeated for the rest of the array.
+Merge sort		: 
+
+
